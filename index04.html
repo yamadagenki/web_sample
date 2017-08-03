@@ -6,17 +6,34 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
+    <style type="text/css">
+        .h1 {
+            color: red;
+        }
+        
+        .h2 {
+            color: green;
+        }
+        
+        .a {
+            font-size: 20px;
+        }
+        
+        .header {
+            background: gray;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header class="#header">
         <img src="logo.svg" width="200px"> <br/>ここはヘッダー
     </header>
     <div>
-        <h1>今日教えることは</h1>
+        <h1 class="h1">今日教えることは</h1>
     </div>
     <div>
-        <h2>まずはじめに</h2>
+        <h2 class="h2">まずはじめに</h2>
         <ol>
             <li>
                 ホームページの作り方
@@ -25,7 +42,7 @@
                 </ul>
             </li>
             <li>
-                <a href="http://www.buildinsider.net/web/chromedevtools/01">Google Chromeのデベロッパーツール</a>
+                <a class="a" href="http://www.buildinsider.net/web/chromedevtools/01">Google Chromeのデベロッパーツール</a>
             </li>
             <li>
                 Githubの使い方
